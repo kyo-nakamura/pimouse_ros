@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>pimouse_ros</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The pimouse_ros package</description>
   <maintainer email="k-nakamura@figla.co.jp">K Nakamura</maintainer>
   <license>BSD</license>
