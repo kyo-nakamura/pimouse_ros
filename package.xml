@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
   <name>pimouse_ros</name>
-  <version>1.0.0</version>
+  <version>0.0.0</version>
   <description>The pimouse_ros package</description>
-  <maintainer email="k-nakamura@figla.co.jp">K Nakamura</maintainer>
+  <maintainer email="k-nakamura@figla.co.jp">Nakamura</maintainer>
   <license>BSD</license>
   <!-- <url type="website">http://wiki.ros.org/pimouse_ros</url> -->
-  <author email="k-nakamura@figla.co.jp">K Nakamura</author> -->
+  <author email="k-nakamura@figla.co.jp">Nakamura</author> -->
 
 
   <!-- The *_depend tags are used to specify dependencies -->
