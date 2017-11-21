@@ -97,11 +97,7 @@ find_package(catkin REQUIRED COMPONENTS
 ###################################
 ## The catkin_package macro generates cmake config files for your package
 ## Declare things to be passed to dependent projects
-<<<<<<< HEAD
 ## INCLUDE_DIRS: uncomment this if your package contains header files
-=======
-## INCLUDE_DIRS: uncomment this if you package contains header files
->>>>>>> db3df6485e132bf7f7f33449ab9c44a72f9e0326
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
