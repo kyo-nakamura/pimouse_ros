@@ -6,6 +6,9 @@ script:
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws/devel/setup.bash
+<<<<<<< HEAD
   - bash -xve ./test/travis_prepare_dummy_files.bash
+=======
+>>>>>>> 48e4c8b81ed7d70bf3f0692565bfb47dbdfc0ccb
   - rostest pimouse_ros test.launch
 
