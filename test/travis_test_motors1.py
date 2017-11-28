@@ -16,7 +16,7 @@ class MotorTest(unittest.TestCase):
     self.assertIn('/motors',nodes,"node does not exist")
  
   def test_put_freq(self):
-    pub = rospy.Piblisher('/motor_raw'. MotorFreqs)
+    pub = rospy.Publisher('/motor_raw'. MotorFreqs)
     m = MotroFreqs()
     m.left_hz = 123
     m.right_hz = 456
@@ -44,8 +44,8 @@ class MotorTest(unittest.TestCase):
 
  if __name__=='__main__':
     time.sleep(3)
-    rospy.init_node('travis_test_motros')
-    rostest.rosrun('pimouse_ros','travis_test_motors',MotorTest)
+    rospy.init_node('travis_test_motors1')
+    rostest.rosrun('pimouse_ros','travis_test_motors1',MotorTest)
 
    
 
