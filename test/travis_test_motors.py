@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #encoding: utf8
 import unittest, rostest
-import rosnote, rospy
+import rosnode, rospy
 import time
 from pimouse_ros.msg import MotorFreqs
 from geometry_msgs.msg import Twist
