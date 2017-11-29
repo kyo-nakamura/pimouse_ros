@@ -44,9 +44,9 @@ class Motor():
   def callback_cmd_vel(self,message):
 #   forward_hz = 80000.0*message.linear.x/(9*math.pi)
 #   rot_hz = 400.0*message.angular.z/math.pi
-    forward_hz = 400
-    rot_hz = 200
-    self.set_raw_freq(forward_hz-rot_hz,forward_hz+rot_hz)
+#   forward_hz = 400
+#   rot_hz = 200
+    self.set_raw_freq(200,600)
     self.using_cmd_vel = True
     self.last_time = rospy.Time.now()
 
