@@ -11,7 +11,6 @@ class Motor():
         rospy.on_shutdown(self.set_power)
         self.sub_raw = rospy.Subscriber('motor_raw', MotorFreqs, self.callback_raw_freq)
         self.sub_cmd_vel = rospy.Subscriber('cmd_vel', Twist, self.callback_cmd_vel)
-
         self.last_time = rospy.Time.now()
         self.using_cmd_vel = False
 
@@ -47,7 +46,6 @@ class Motor():
         forward_hz = 80000.0*message.linear.x/(9*math.pi)
         rot_hz = 400.0*message.angular.z/math.pi
         self.set_raw_freq(forward_hz-rot_hz, forward_hz+rot_hz)
-
         self.using_cmd_vel = True
         self.last_time = rospy.Time.now()
 
