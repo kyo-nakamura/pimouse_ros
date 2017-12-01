@@ -1,1 +1,1 @@
-motors1.py
+scripts/motors1.py
