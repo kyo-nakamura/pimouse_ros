@@ -70,12 +70,14 @@ class Motor():
 
         dev = "/dev/rtmotor0"
         try:
-            with open(dev, "w") as f:
+            with open(dev, 'w') as f:
                 f.write("%d %d %d\n" %
                     (message.left_hz,message.right_hz,message.duration_ms))
         except:
             rospy,logerr("cannot write to " + dev)
             return False
+
+        return True
 
 
 if __name__ == '__main__':
