@@ -63,7 +63,7 @@ class Motor():
         self.using_cmd_vel = True
         self.last_time = rospy.Time.now()
 
-    def callback_tm(self,message)
+    def callback_tm(self,message):
         if not self.is_on:
             rospy,logerr("not enpowered")
             return False
