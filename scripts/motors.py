@@ -72,7 +72,7 @@ class Motor():
         try:
             with open(dev, "w") as f:
                 f.write("%d %d %d\n" %
-                    (message.left_hz,message.right_hz,message.duration_ms)
+                    (message.left_hz,message.right_hz,message.duration_ms))
         except:
             rospy,logerr("cannot write to " + dev)
             return False
